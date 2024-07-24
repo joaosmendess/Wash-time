@@ -60,7 +60,7 @@ const WashTypeForm: React.FC<WashTypeFormProps> = ({ onCreate, onUpdate, selecte
 
   return (
     <>
-      <Button onClick={() => setIsOpen(true)} className="bg-black text-white font-bold py-2 px-4 rounded">
+      <Button onClick={() => setIsOpen(true)} className="bg-black text-white font-bold py-2 px-0 rounded">
         <PlusIcon className="h-5 w-5 mr-2" />
         {selectedWashType ? 'Editar Tipo de Lavagem' : 'Criar Novo Tipo de Lavagem'}
       </Button>
